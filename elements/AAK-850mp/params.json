@@ -1,0 +1,42 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Text Looper",
+    "fields": {
+        "AAL": {
+            "caption": "text_list",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "text_list",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "duration",
+            "default_val": 4000,
+            "editor": "DynamicValue",
+            "name": "duration",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAM": {
+            "caption": "return",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "return",
+            "value": "text"
+        }
+    }
+}
